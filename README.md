@@ -1,39 +1,3 @@
-# Struktur Direktori Awal Project RUNLOG
-
-# root-project/
-├── backend/                   # folder backend dengan Pyramid
-│   ├── runlog/                # main package Pyramid
-│   │   ├── __init__.py
-│   │   ├── models.py          # definisi schema SQLAlchemy
-│   │   ├── views/             # folder views (endpoint CRUD)
-│   │   │   ├── users.py
-│   │   │   ├── runlog.py
-│   │   │   └── goal.py
-│   │   └── auth.py            # file login/register
-│   ├── development.ini
-│   └── setup.py
-│
-├── frontend/                  # folder frontend React
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── RunLogList.jsx
-│   │   │   ├── RunLogForm.jsx
-│   │   │   └── GoalForm.jsx
-│   │   ├── pages/
-│   │   │   ├── Dashboard.jsx
-│   │   │   └── Login.jsx
-│   │   ├── App.jsx
-│   │   ├── index.js
-│   │   └── services/          # Axios API helper
-│   │       └── api.js
-│   └── package.json
-│
-├── README.md
-└── .gitignore
-
-# README.md awal
-
 # RUNLOG – Personal Running Tracker
 
 ## Deskripsi
